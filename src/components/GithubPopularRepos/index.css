@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.header-list-container {
+  list-style-type: none;
+  display: flex;
+}
+.repos-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading {
+  font-family: Lobster;
+  font-size: 30px;
+  padding: 0px;
+}
+.repo-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .repo-list-container {
+    width: 220px;
+  }
+}
+.loader-img {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}

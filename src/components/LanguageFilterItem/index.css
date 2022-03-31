@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.header-list-item {
+  margin: 10px;
+}
+.default-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2px;
+}
+.active-language-class {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 10px;
+}
