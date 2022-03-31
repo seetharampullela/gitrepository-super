@@ -14,13 +14,15 @@ const LanguageFilterItem = props => {
   return (
     <div>
       <li className="header-list-item">
-        <button
-          type="button"
-          onClick={getRespectiveRepos}
-          className={`default-button ${activeClassName}`}
-        >
-          <p>{language}</p>
-        </button>
+        <div className={`${activeClassName}`}>
+          <button
+            type="button"
+            onClick={getRespectiveRepos}
+            className="default-button"
+          >
+            <p>{language}</p>
+          </button>
+        </div>
       </li>
     </div>
   )
